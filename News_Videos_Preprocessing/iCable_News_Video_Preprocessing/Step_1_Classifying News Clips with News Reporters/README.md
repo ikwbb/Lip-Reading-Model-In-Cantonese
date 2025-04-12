@@ -17,7 +17,11 @@ To run this notebook, you need the following dependencies installed:
 - Jupyter Notebook or JupyterLab
 - Libraries:
   ```bash
-  pip install opencv-python torch torchvision torchaudio clip pandas numpy pillow tqdm scikit-learn tkinter
+  pip install opencv-python torch torchvision torchaudio pandas numpy pillow tqdm scikit-learn tkinter
+  ```
+  
+  ```bash
+  pip install git+https://github.com/openai/CLIP.git
   ```
 
 Additionally, ensure you have:
