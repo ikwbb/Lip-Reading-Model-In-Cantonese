@@ -126,22 +126,6 @@ pip install pandas selenium webdriver-manager subprocess
 4. Categorize videos into folders like `有理有得傾` and `同行45載，與你相伴連繫`.
 5. Save the final dataset as `latest_datapd_icable.pkl`.
 
-## Troubleshooting
-
-- **ChromeDriver Issues**: Ensure Chrome and ChromeDriver versions match. Use `webdriver-manager` to simplify setup.
-
-- **FFmpeg Errors**: Verify FFmpeg is in your PATH and accessible via `ffmpeg -version`.
-
-- **Timeouts**: Increase the `WebDriverWait` timeout (e.g., from 5 to 10 seconds) if pages load slowly:
-
-  ```python
-  wait = WebDriverWait(driver, 10)
-  ```
-
-- **File Not Found**: Check file paths for CSVs, pickle files, and video directories.
-
-- **Memory Issues**: For large datasets, consider processing in smaller chunks or using a machine with more RAM.
-
 
 ## Acknowledgments
 
