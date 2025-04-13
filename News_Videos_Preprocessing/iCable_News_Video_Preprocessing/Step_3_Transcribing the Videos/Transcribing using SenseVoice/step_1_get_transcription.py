@@ -1,7 +1,7 @@
+import sys
+sys.path.insert(0, "./SenseVoice")
+
 import os
-os.chdir('./SenseVoice')
-
-
 import subprocess
 
 

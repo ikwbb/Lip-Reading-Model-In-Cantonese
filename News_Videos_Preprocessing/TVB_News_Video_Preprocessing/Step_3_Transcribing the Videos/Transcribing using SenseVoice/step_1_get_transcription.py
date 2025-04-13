@@ -1,5 +1,7 @@
+import sys
+sys.path.insert(0, "./SenseVoice")
+
 import os
-os.chdir('./SenseVoice')
 
 from model import SenseVoiceSmall
 from funasr.utils.postprocess_utils import rich_transcription_postprocess

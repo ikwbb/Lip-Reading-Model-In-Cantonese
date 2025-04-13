@@ -39,8 +39,8 @@ def slice_video(video_path, times, output_dir, base_filename, max_workers=4):
 
 def main():
     video_dir = './icable Reporter Videos'
-    srt_dir = './icable_SRT_Transcribing\\srts'
-    output_dir = './icable_trim\\trimmed_videos_2nd'
+    srt_dir = './icable_SRT_Transcribing/srts'
+    output_dir = './icable_sliced/'
     
     video_files = {f.split('.')[0]: os.path.join(video_dir, f) 
                    for f in os.listdir(video_dir) if f.endswith('.mp4')}
