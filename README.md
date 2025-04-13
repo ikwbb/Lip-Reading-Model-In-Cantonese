@@ -1,1 +1,49 @@
-"# Lip-Reading-Model-In-Cantonese" 
+# Lip-Reading Model In Cantonese
+
+This repository presents a complete pipeline for building a Cantonese lip-reading system. The project is organized into five main stages, each of which is contained within a corresponding folder:
+
+1. `Step_1_News_Videos_Scraping`
+2. `Step_2_News_Videos_Preprocessing`
+3. `Step_3_Visual_Speech_Recognition_Model_Training`
+4. `Step_4_Large_Language_Model_Fine_Tuning`
+5. `Step_5_Model_Evaluation`
+
+Please navigate through each folder in sequence to explore the full workflow.
+
+------
+
+### Step 1: News Videos Scraping
+
+![Step 1](./assets/image-20250414054225253.png)
+
+This step provides the code used to scrape news videos from TVB and iCable. The videos serve as the primary dataset for subsequent processing and training.
+
+------
+
+### Step 2: News Videos Preprocessing
+
+![Step 2](./assets/image-20250414054323841.png)
+
+In this step, the scraped news videos are preprocessed to extract the mouth region of interest (ROI) and align the corresponding transcription. This forms the foundation for the visual speech recognition stage.
+
+------
+
+### Step 3: Visual Speech Recognition (VSR) Model Training
+
+![Step 3](./assets/image-20250414054436501.png)
+
+This stage contains the training pipeline for the Visual Speech Recognition model, which maps the mouth ROI sequences to toneless Jyutping sequences representing spoken Cantonese.
+
+------
+
+### Step 4: Large Language Model (LLM) Fine-Tuning
+
+![Step 4](./assets/image-20250414054659052.png)
+
+Here, a Large Language Model is fine-tuned to convert the output Jyutping sequences from the VSR model into fluent Cantonese sentences.
+
+------
+
+### Step 5: Model Evaluation
+
+This section includes all testing scripts and evaluation results. It demonstrates the final system’s performance and provides insights into model accuracy and areas for improvement.
