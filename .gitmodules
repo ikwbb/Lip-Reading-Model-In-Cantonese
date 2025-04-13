@@ -1,0 +1,6 @@
+[submodule "News_Videos_Preprocessing/TVB_News_Video_Preprocessing/Step_3_Transcribing the Videos/Transcribing using SenseVoice/SenseVoice"]
+	path = News_Videos_Preprocessing/TVB_News_Video_Preprocessing/Step_3_Transcribing the Videos/Transcribing using SenseVoice/SenseVoice
+	url = https://github.com/FunAudioLLM/SenseVoice.git
+[submodule "News_Videos_Preprocessing/iCable_News_Video_Preprocessing/Step_3_Transcribing the Videos/Transcribing using SenseVoice/SenseVoice"]
+	path = News_Videos_Preprocessing/iCable_News_Video_Preprocessing/Step_3_Transcribing the Videos/Transcribing using SenseVoice/SenseVoice
+	url = https://github.com/FunAudioLLM/SenseVoice.git

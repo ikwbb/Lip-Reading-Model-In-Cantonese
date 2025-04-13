@@ -22,7 +22,7 @@ This script transcribes audio files (.m4a) using the `SenseVoiceSmall` model and
 
 ## Execution
 
-1. Enter `SenseVoice` directory and locate the `step_1_get_srts.py` and edit the path to the **audio files** and the **output SRT files**.
+1. Locate the `step_1_get_transcription.py` and edit the path to the **audio files** and the **output SRT files**.
 
 ```python
 # Path to the Audio Files
@@ -32,7 +32,7 @@ audio_dir = r"./TVB_Trim/trimmed_audios"
 output_dir = r"./TVB_SRT_Transcribing/srts_sensevoice/srts"
 ```
 
-3. Execute `./SenseVoice/step_1_get_srts.py` to generate the Audio Transcription.
+3. Execute `./step_1_get_transcription.py` to generate the Audio Transcription.
 4. Locate the `post_process_srts.py` and edit the path to the **audio files** and the **output SRT files**.
 
 ```python
