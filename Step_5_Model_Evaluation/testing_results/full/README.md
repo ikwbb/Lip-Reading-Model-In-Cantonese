@@ -28,7 +28,7 @@ result_{testset}_{epoch}_epoch_test_{jyutping_variant}_full{_word_segmented}.csv
 - **Epoch ≤ 75**: Models were trained on the **TVB-only** training set.
 - **Epoch > 75**: Models were trained on a **TVB + iCable mixed** training set. Specifically:
   - Epochs 1–75: TVB training data
-  - Epochs 76–134: Mixed TVB + iCable training data
+  - Epochs 76–135: Mixed TVB + iCable training data
 
 
 

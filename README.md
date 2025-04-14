@@ -4,7 +4,7 @@
 
 ### Model Evaluation
 
-Please check this [Jupyter Notebook]() for detailed model evaluation results.
+Please check this [Jupyter Notebook](https://github.com/ikwbb/Lip-Reading-Model-In-Cantonese/blob/main/Step_5_Model_Evaluation/testing_results/full/Model%20Evaluation.ipynb) for detailed model evaluation results.
 
 ---
 
