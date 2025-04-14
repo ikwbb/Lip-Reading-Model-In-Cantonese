@@ -28,7 +28,7 @@ Please navigate through each folder in sequence to explore the full workflow.
 
 ### Step 1: News Videos Scraping
 
-<div align="center"><img src="./assets/image-20250414054225253.png" alt="Step 1" style="zoom:60%;" /></div>
+<div align="center"><img src="./assets/step-1.png" alt="Step 1" style="zoom:60%;" /></div>
 
 This step provides the code used to scrape news videos from TVB and iCable. The videos serve as the primary dataset for subsequent processing and training.
 
@@ -36,7 +36,7 @@ This step provides the code used to scrape news videos from TVB and iCable. The 
 
 ### Step 2: News Videos Preprocessing
 
-![Step 2](./assets/image-20250414054323841.png)
+![Step 2](./assets/step-2.png)
 
 In this step, the scraped news videos are preprocessed to extract the mouth region of interest (ROI) and align the corresponding transcription. This forms the foundation for the visual speech recognition stage.
 
@@ -44,7 +44,7 @@ In this step, the scraped news videos are preprocessed to extract the mouth regi
 
 ### Step 3: Visual Speech Recognition (VSR) Model Training
 
-![Step 3](./assets/image-20250414054436501.png)
+![Step 3](./assets/step-3.png)
 
 This stage contains the training pipeline for the Visual Speech Recognition model, which maps the mouth ROI sequences to toneless Jyutping sequences representing spoken Cantonese.
 
@@ -52,7 +52,7 @@ This stage contains the training pipeline for the Visual Speech Recognition mode
 
 ### Step 4: Large Language Model (LLM) Fine-Tuning
 
-![Step 4](./assets/image-20250414054659052.png)
+![Step 4](./assets/step-4.png)
 
 Here, a Large Language Model is fine-tuned to convert the output Jyutping sequences from the VSR model into fluent Cantonese sentences.
 
