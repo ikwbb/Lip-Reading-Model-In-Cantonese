@@ -116,5 +116,5 @@ To use the script:
 4. Use the `generate_cantonese` function for inference:
    ```python
    prediction = generate_cantonese("m hai gong siu zan hai gei sai lei")
-   print(prediction)  # Expected output: 唔係講少真係幾犀利
+   print(prediction)  # Expected output: 唔係講笑真係幾犀利
    ```
