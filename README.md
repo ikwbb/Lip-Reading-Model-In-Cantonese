@@ -1,5 +1,17 @@
 # Lip-Reading Model In Cantonese
 
+
+
+### Model Evaluation
+
+Please check this [Jupyter Notebook]() for detailed model evaluation results.
+
+---
+
+
+
+### # Code Implementation
+
 This repository presents a complete pipeline for building a Cantonese lip-reading system. The project is organized into five main stages, each of which is contained within a corresponding folder:
 
 1. `Step_1_News_Videos_Scraping`
@@ -8,13 +20,15 @@ This repository presents a complete pipeline for building a Cantonese lip-readin
 4. `Step_4_Large_Language_Model_Fine_Tuning`
 5. `Step_5_Model_Evaluation`
 
+
+
 Please navigate through each folder in sequence to explore the full workflow.
 
 ------
 
 ### Step 1: News Videos Scraping
 
-![Step 1](./assets/image-20250414054225253.png)
+<div align="center"><img src="./assets/image-20250414054225253.png" alt="Step 1" style="zoom:60%;" /></div>
 
 This step provides the code used to scrape news videos from TVB and iCable. The videos serve as the primary dataset for subsequent processing and training.
 
