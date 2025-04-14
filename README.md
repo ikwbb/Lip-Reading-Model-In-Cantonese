@@ -10,7 +10,7 @@ Please check this [Jupyter Notebook](https://github.com/ikwbb/Lip-Reading-Model-
 
 
 
-### # Code Implementation
+### Code Implementation
 
 This repository presents a complete pipeline for building a Cantonese lip-reading system. The project is organized into five main stages, each of which is contained within a corresponding folder:
 
