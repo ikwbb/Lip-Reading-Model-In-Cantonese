@@ -40,6 +40,12 @@ This step provides the code used to scrape news videos from TVB and iCable. The 
 
 In this step, the scraped news videos are preprocessed to extract the mouth region of interest (ROI) and align the corresponding transcription. This forms the foundation for the visual speech recognition stage.
 
+#### Dataset Download
+The preprocessed and manifested dataset can be found in the following:
+| Dataset | Size | Link |
+|---------|------|------|
+|TVB & iCable Dataset | 115GB | [Link](https://1drv.ms/f/c/DADC679B5C6EBC0F/EsKbtspvEilFpx5OoSefZIUBZJIoRAAIpFm_SMktOWD4kw?e=Eg0lpb) |
+
 
 #### Sample: Original News Clip - TVB Dataset
 https://github.com/user-attachments/assets/b67838f8-f8e3-4a90-9949-c5729ee96fe5
