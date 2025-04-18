@@ -50,13 +50,13 @@ The preprocessed and manifested dataset can be found in the following:
 #### Sample: Original News Clip - TVB Dataset
 https://github.com/user-attachments/assets/b67838f8-f8e3-4a90-9949-c5729ee96fe5
 
-#### Sample: Preprocessed Mouth Region of Interest (ROI) - TVB Dataset
+#### Sample: Preprocessed Mouth Region of Interest (ROI) - TVB Dataset (Long Sample)
 https://github.com/user-attachments/assets/d3874cf0-016a-4a86-bd1b-8f975a046019
 
 #### Sample: Original News Clip - iCable Dataset
 https://github.com/user-attachments/assets/a3f6d0f7-abbd-4b71-a2ad-6d9af432c856
 
-#### Sample: Preprocessed Mouth Region of Interest (ROI) - iCable Dataset
+#### Sample: Preprocessed Mouth Region of Interest (ROI) - iCable Dataset (Long Sample)
 https://github.com/user-attachments/assets/d40fb1c2-a5e1-440f-90f6-408a046473a9
 
 
