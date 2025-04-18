@@ -44,7 +44,7 @@ In this step, the scraped news videos are preprocessed to extract the mouth regi
 The preprocessed and manifested dataset can be found in the following:
 | Dataset | Size | Link |
 |---------|------|------|
-|TVB & iCable Dataset | 115GB | [Link](https://1drv.ms/f/c/DADC679B5C6EBC0F/EsKbtspvEilFpx5OoSefZIUBZJIoRAAIpFm_SMktOWD4kw?e=Eg0lpb) |
+|TVB & iCable Dataset with Preprocessed Transcription and Mouth ROI| 115GB | [Link](https://1drv.ms/f/c/DADC679B5C6EBC0F/EsKbtspvEilFpx5OoSefZIUBZJIoRAAIpFm_SMktOWD4kw?e=Eg0lpb) |
 
 
 #### Sample: Original News Clip - TVB Dataset
