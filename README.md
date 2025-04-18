@@ -41,8 +41,18 @@ This step provides the code used to scrape news videos from TVB and iCable. The 
 In this step, the scraped news videos are preprocessed to extract the mouth region of interest (ROI) and align the corresponding transcription. This forms the foundation for the visual speech recognition stage.
 
 
+#### Sample: Original News Clip - TVB Dataset
+https://github.com/user-attachments/assets/b67838f8-f8e3-4a90-9949-c5729ee96fe5
 
-<video src="https://raw.githubusercontent.com/ikwbb/Lip-Reading-Model-In-Cantonese/refs/heads/main/assets/samples/icable/original/10075_0.mp4" width="300" />
+#### Sample: Preprocessed Mouth Region of Interest (ROI) - TVB Dataset
+https://github.com/user-attachments/assets/d3874cf0-016a-4a86-bd1b-8f975a046019
+
+#### Sample: Original News Clip - iCable Dataset
+https://github.com/user-attachments/assets/a3f6d0f7-abbd-4b71-a2ad-6d9af432c856
+
+#### Sample: Preprocessed Mouth Region of Interest (ROI) - iCable Dataset
+https://github.com/user-attachments/assets/d40fb1c2-a5e1-440f-90f6-408a046473a9
+
 
 
 
