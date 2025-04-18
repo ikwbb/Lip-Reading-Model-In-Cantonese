@@ -40,6 +40,12 @@ This step provides the code used to scrape news videos from TVB and iCable. The 
 
 In this step, the scraped news videos are preprocessed to extract the mouth region of interest (ROI) and align the corresponding transcription. This forms the foundation for the visual speech recognition stage.
 
+
+
+<video src="https://raw.githubusercontent.com/ikwbb/Lip-Reading-Model-In-Cantonese/refs/heads/main/assets/samples/icable/original/10075_0.mp4" width="300" />
+
+
+
 ------
 
 ### Step 3: Visual Speech Recognition (VSR) Model Training
