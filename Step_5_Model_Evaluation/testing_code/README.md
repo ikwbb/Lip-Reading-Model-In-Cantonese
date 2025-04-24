@@ -51,21 +51,15 @@ pip install transformers peft torch pandas tqdm
 
 ## Setup
 
-1. **Clone the Repository** (if applicable):
-   ```bash
-   git clone <repository-url>
-   cd <repository-name>
-   ```
-
-2. **Prepare Datasets**:
+1. **Prepare Datasets**:
    - Place dataset files in `datasets/{dataset}_dataset/` with a `labels/cstm_test.csv` file.
    - Ensure ground truth files (`tvb_gt.csv`, `icable_gt.csv`) are in `datasets/ground_truth_labels/`.
 
-3. **Download Models**:
+2. **Download Models**:
    - Place the pretrained AVSR model in a directory accessible to `start_eval.sh`.
    - Download the base Cantonese LLM (`hon9kon9ize/CantoneseLLMChat-v1.0-7B`) and LoRA checkpoints in `lora-checkpoints/`.
 
-4. **Set Permissions**:
+3. **Set Permissions**:
    ```bash
    chmod +x start_eval.sh
    ```
